@@ -5,7 +5,7 @@ import DashboardPreview from "./components/DashboardPreview";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white text-gray-900">
+    <div className="min-h-screen bg-[#F5F7FA] text-[#4D4D4D] antialiased">
       <Header />
       <main>
         <Hero />

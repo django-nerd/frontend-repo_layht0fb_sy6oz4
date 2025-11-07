@@ -35,23 +35,23 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="py-16 bg-white">
+    <section id="features" className="py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900">Everything in one place</h2>
-          <p className="mt-2 text-gray-600">StudySphere fuses your classes, tasks, and conversations into a single, calm interface.</p>
+          <h2 className="text-3xl font-extrabold tracking-tight text-[#121212]">Everything in one place</h2>
+          <p className="mt-2 text-[#4D4D4D]">StudySphere fuses your classes, tasks, and conversations into a single, calm interface.</p>
         </div>
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((f, i) => (
-            <div key={i} className="group relative rounded-xl border border-gray-200 p-5 bg-white shadow-sm hover:shadow-md transition-shadow">
+            <div key={i} className="group relative rounded-2xl border border-black/10 p-5 bg-white shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-start gap-3">
-                <div className="h-10 w-10 rounded-lg bg-indigo-50 text-indigo-700 flex items-center justify-center">
+                <div className="h-10 w-10 rounded-xl bg-[#6C63FF]/10 text-[#6C63FF] flex items-center justify-center">
                   <f.icon size={20} />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">{f.title}</h3>
-                  <p className="mt-1 text-sm text-gray-600">{f.desc}</p>
+                  <h3 className="font-semibold text-[#121212]">{f.title}</h3>
+                  <p className="mt-1 text-sm text-[#4D4D4D]">{f.desc}</p>
                 </div>
               </div>
             </div>
